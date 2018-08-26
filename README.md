@@ -21,9 +21,12 @@ $ npm run generate
 ## Info
 
 Users:
+
+Darth Vader
 - username: darth
 - password: 123
 
+Luke
 - username: luke
 - password: 1234
 
