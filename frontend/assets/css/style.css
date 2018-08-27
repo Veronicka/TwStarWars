@@ -9,10 +9,10 @@
   transition: bottom .3s;
   z-index: 3;
 }
-@media screen and (min-width: 1236px)
+/* @media screen and (min-width: 1236px)
 .AppContainer {
     max-width: 1190px;
-}
+} */
 
 .AppContainer {
     margin: 0 auto;
@@ -36,23 +36,99 @@
   width: 100%;
 }
 
-@media (min-width: 1200px)
-.ProfileCanopy--large, .ProfileCanopy--large .ProfileCanopy-header {
-    height: 280px;
+@media only screen and (min-width : 320px){
+  .ProfileCanopy, .ProfileCanopy-header {
+    height: 174px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -14px;
+    left: 2px;
+  }
+  .ProfileAvatar{
+    height: 75px;
+    width: 75px;
+  }
 }
-@media (min-width: 1100px)
-.ProfileCanopy--large, .ProfileCanopy--large .ProfileCanopy-header {
-    height: 280px;
+@media only screen and (min-width : 480px){
+  .ProfileCanopy, .ProfileCanopy-header {
+    height: 200px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -55px;
+    left: 8px;
+  }
+  .ProfileAvatar{
+    height: 100px;
+    width: 100px;
+  }
 }
-.ProfileCanopy--large, .ProfileCanopy--large .ProfileCanopy-header {
+@media only screen and (min-width : 600px){
+  .ProfileCanopy-avatar {
+    bottom: -45px;
+    left: 30px;
+  }
+}
+@media only screen and (min-width : 768px){
+  .ProfileCanopy--large, .ProfileCanopy-header {
+    height: 200px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -80px;
+    left: 30px;
+  }
+  .ProfileAvatar{
+    height: 120px;
+    width: 120px;
+  }
+}
+@media only screen and (min-width : 992px){
+  .ProfileCanopy--large, .ProfileCanopy-header {
     height: 250px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -80px;
+    left: 30px;
+  }
+  .ProfileAvatar{
+    height: 140px;
+    width: 140px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .ProfileCanopy--large, .ProfileCanopy-header {
+      height: 280px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -80px;
+    left: 30px;
+  }
+  .ProfileAvatar{
+    height: 160px;
+    width: 160px;
+  }
+}
+@media only screen and (min-width: 1100px){
+  .ProfileCanopy--large, .ProfileCanopy-header {
+    height: 280px;
+  }
+  .ProfileCanopy-avatar {
+    bottom: -80px;
+    left: 30px;
+  }
+  .ProfileAvatar{
+    height: 180px;
+    width: 180px;
+  }
+}
+.ProfileCanopy--large, .ProfileCanopy-header {
+    /* height: 250px; */
     margin: auto;
 }
 .ProfileCanopy--withNav {
     padding-bottom: 60px;
 }
 .ProfileCanopy, .ProfileCanopy-header {
-    height: 250px;
+    /* height: 250px; */
     margin-top: 10px;
     transition: height .3s;
 }
